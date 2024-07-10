@@ -5,8 +5,9 @@ In this work, we identify the importance of implicit correspondences across biol
 
 ![teaser](asset/paradigm.png)
 
-## Set Up
-
+## Environment Setup
+This project is based upon the MaskRCNN-benchmark repository(https://github.com/facebookresearch/maskrcnn-benchmark). 
+For environment installation and setup, please refer to this page and follow the instructions.
 
 ## Training
 
