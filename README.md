@@ -12,3 +12,17 @@ For environment installation and setup, please refer to this page and follow the
 ## Training
 
     bash train_class.sh
+
+## Evaluation
+
+    cd inference/PanNuke_aug/
+    python PanNuke_cross_classonly_infer.py
+    python PanNuke_cross_classonly_eva.py
+    
+
+## Acknowledgements
+This project is based on [MaskRCNN-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark), [MAE](https://github.com/pengzhiliang/MAE-pytorch), [PDAM](https://github.com/dliu5812/PDAM), thanks for their excellent works.
+
+## License
+
+This project is released under the MIT license. Please see the [LICENSE](LICENSE) file for more information.
